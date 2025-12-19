@@ -13,15 +13,35 @@ Install Dependencies
 pip install music21 tensorflow keras numpy
 
 📂 Project Structure
+
+
 music_generation/
+
+
 │
+
+
 ├── midi_songs/          # Input MIDI files
+
+
 ├── data/
+
+
 │   └── notes.pkl        # Extracted notes
+
+
 ├── train_model.py       # Model training script
+
+
 ├── generate_music.py    # Music generation script
+
+
 ├── music_model.h5       # Trained model
+
+
 └── generated_music.mid  # Output music file
+
+
 
 ▶️ How to Run the Project
 Step 1: Add MIDI Files
